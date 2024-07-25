@@ -1,0 +1,23 @@
+[0.555s] Invoking command in '/home/pranav/turtle_catcher/build/turtle_catcher': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data
+[0.791s] running develop
+[0.926s] running egg_info
+[0.926s] creating turtle_catcher.egg-info
+[0.926s] writing turtle_catcher.egg-info/PKG-INFO
+[0.927s] writing dependency_links to turtle_catcher.egg-info/dependency_links.txt
+[0.927s] writing entry points to turtle_catcher.egg-info/entry_points.txt
+[0.927s] writing requirements to turtle_catcher.egg-info/requires.txt
+[0.927s] writing top-level names to turtle_catcher.egg-info/top_level.txt
+[0.927s] writing manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[0.929s] reading manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[0.929s] writing manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[0.931s] running build_ext
+[0.931s] Creating /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle-catcher.egg-link (link to .)
+[0.932s] 
+[0.932s] Installed /home/pranav/turtle_catcher/build/turtle_catcher
+[0.932s] running symlink_data
+[0.932s] creating /home/pranav/turtle_catcher/install/turtle_catcher/share/ament_index
+[0.932s] creating /home/pranav/turtle_catcher/install/turtle_catcher/share/ament_index/resource_index
+[0.932s] creating /home/pranav/turtle_catcher/install/turtle_catcher/share/ament_index/resource_index/packages
+[0.933s] symbolically linking /home/pranav/turtle_catcher/build/turtle_catcher/resource/turtle_catcher -> /home/pranav/turtle_catcher/install/turtle_catcher/share/ament_index/resource_index/packages
+[0.933s] symbolically linking /home/pranav/turtle_catcher/build/turtle_catcher/package.xml -> /home/pranav/turtle_catcher/install/turtle_catcher/share/turtle_catcher
+[0.963s] Invoked command in '/home/pranav/turtle_catcher/build/turtle_catcher' returned '0': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data

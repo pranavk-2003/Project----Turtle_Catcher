@@ -1,0 +1,24 @@
+[0.668s] Invoking command in '/home/pranav/turtle_catcher/src/turtle_catcher': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_catcher build --build-base /home/pranav/turtle_catcher/build/turtle_catcher/build install --record /home/pranav/turtle_catcher/build/turtle_catcher/install.log --single-version-externally-managed install_data
+[0.942s] running egg_info
+[0.943s] writing ../../build/turtle_catcher/turtle_catcher.egg-info/PKG-INFO
+[0.943s] writing dependency_links to ../../build/turtle_catcher/turtle_catcher.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/turtle_catcher/turtle_catcher.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/turtle_catcher/turtle_catcher.egg-info/requires.txt
+[0.944s] writing top-level names to ../../build/turtle_catcher/turtle_catcher.egg-info/top_level.txt
+[0.946s] reading manifest file '../../build/turtle_catcher/turtle_catcher.egg-info/SOURCES.txt'
+[0.947s] writing manifest file '../../build/turtle_catcher/turtle_catcher.egg-info/SOURCES.txt'
+[0.947s] running build
+[0.947s] running build_py
+[0.947s] copying turtle_catcher/turtle_catcher.py -> /home/pranav/turtle_catcher/build/turtle_catcher/build/lib/turtle_catcher
+[0.948s] running install
+[0.948s] running install_lib
+[0.949s] copying /home/pranav/turtle_catcher/build/turtle_catcher/build/lib/turtle_catcher/turtle_catcher.py -> /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle_catcher
+[0.949s] byte-compiling /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle_catcher/turtle_catcher.py to turtle_catcher.cpython-310.pyc
+[0.950s] running install_data
+[0.951s] running install_egg_info
+[0.952s] removing '/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle_catcher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.953s] Copying ../../build/turtle_catcher/turtle_catcher.egg-info to /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle_catcher-0.0.0-py3.10.egg-info
+[0.954s] running install_scripts
+[0.976s] Installing turtle_catcher script to /home/pranav/turtle_catcher/install/turtle_catcher/lib/turtle_catcher
+[0.976s] writing list of installed files to '/home/pranav/turtle_catcher/build/turtle_catcher/install.log'
+[1.001s] Invoked command in '/home/pranav/turtle_catcher/src/turtle_catcher' returned '0': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_catcher build --build-base /home/pranav/turtle_catcher/build/turtle_catcher/build install --record /home/pranav/turtle_catcher/build/turtle_catcher/install.log --single-version-externally-managed install_data

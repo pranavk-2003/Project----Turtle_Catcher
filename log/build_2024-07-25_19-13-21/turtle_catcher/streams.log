@@ -1,0 +1,18 @@
+[0.803s] Invoking command in '/home/pranav/turtle_catcher/build/turtle_catcher': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data
+[1.104s] running develop
+[1.279s] running egg_info
+[1.279s] writing turtle_catcher.egg-info/PKG-INFO
+[1.280s] writing dependency_links to turtle_catcher.egg-info/dependency_links.txt
+[1.280s] writing entry points to turtle_catcher.egg-info/entry_points.txt
+[1.280s] writing requirements to turtle_catcher.egg-info/requires.txt
+[1.280s] writing top-level names to turtle_catcher.egg-info/top_level.txt
+[1.282s] reading manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[1.282s] writing manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[1.284s] running build_ext
+[1.284s] Creating /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle-catcher.egg-link (link to .)
+[1.286s] Installing turtle_catcher script to /home/pranav/turtle_catcher/install/turtle_catcher/lib/turtle_catcher
+[1.286s] Installing turtle_spawner script to /home/pranav/turtle_catcher/install/turtle_catcher/lib/turtle_catcher
+[1.286s] 
+[1.286s] Installed /home/pranav/turtle_catcher/build/turtle_catcher
+[1.286s] running symlink_data
+[1.317s] Invoked command in '/home/pranav/turtle_catcher/build/turtle_catcher' returned '0': PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data

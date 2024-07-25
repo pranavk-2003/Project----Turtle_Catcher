@@ -1,0 +1,18 @@
+[0.806s] Invoking command in '/home/pranav/turtle_catcher/build/turtle_catcher': AMENT_PREFIX_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data
+[1.091s] running develop
+[1.262s] running egg_info
+[1.262s] writing turtle_catcher.egg-info/PKG-INFO
+[1.262s] writing dependency_links to turtle_catcher.egg-info/dependency_links.txt
+[1.262s] writing entry points to turtle_catcher.egg-info/entry_points.txt
+[1.263s] writing requirements to turtle_catcher.egg-info/requires.txt
+[1.263s] writing top-level names to turtle_catcher.egg-info/top_level.txt
+[1.265s] reading manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[1.266s] writing manifest file 'turtle_catcher.egg-info/SOURCES.txt'
+[1.268s] running build_ext
+[1.268s] Creating /home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages/turtle-catcher.egg-link (link to .)
+[1.269s] Installing turtle_catcher script to /home/pranav/turtle_catcher/install/turtle_catcher/lib/turtle_catcher
+[1.270s] Installing turtle_spawner script to /home/pranav/turtle_catcher/install/turtle_catcher/lib/turtle_catcher
+[1.270s] 
+[1.270s] Installed /home/pranav/turtle_catcher/build/turtle_catcher
+[1.270s] running symlink_data
+[1.300s] Invoked command in '/home/pranav/turtle_catcher/build/turtle_catcher' returned '0': AMENT_PREFIX_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pranav/turtle_catcher/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranav/turtle_catcher/build/turtle_catcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/turtle_catcher/install/turtle_catcher/lib/python3.10/site-packages:/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/turtle_catcher/build/turtle_catcher/build --no-deps symlink_data

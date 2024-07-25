@@ -1,0 +1,237 @@
+[0.018s] Invoking command in '/home/pranav/turtle_catcher/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/turtle_catcher/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pranav/turtle_catcher/install/my_robot_interfaces
+[0.032s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.495s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.979s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.005s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.006s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.006s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.007s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.027s] -- Found PythonExtra: .so  
+[1.070s] -- Configuring done
+[1.108s] -- Generating done
+[1.112s] -- Build files have been written to: /home/pranav/turtle_catcher/build/my_robot_interfaces
+[1.121s] Invoked command in '/home/pranav/turtle_catcher/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/turtle_catcher/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pranav/turtle_catcher/install/my_robot_interfaces
+[1.122s] Invoking command in '/home/pranav/turtle_catcher/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/turtle_catcher/build/my_robot_interfaces -- -j4 -l4
+[1.167s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.181s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.196s] [  5%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.473s] [  5%] Built target my_robot_interfaces__cpp
+[1.488s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.497s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.498s] running egg_info
+[1.499s] creating my_robot_interfaces.egg-info
+[1.499s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.500s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.500s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.501s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.503s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.504s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.519s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle__functions.c.o[0m
+[1.543s] [ 12%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.554s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[1.605s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.628s] [ 20%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[1.710s] [ 20%] Built target my_robot_interfaces__rosidl_generator_c
+[1.728s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.788s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[1.876s] [ 28%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[1.987s] [ 30%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[2.129s] [ 33%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[2.133s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[2.612s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[2.698s] [ 41%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.748s] [ 43%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[2.752s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[2.767s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.806s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[3.001s] [ 51%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.119s] [ 51%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.135s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.167s] [ 56%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.195s] [ 58%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle__type_support.c.o[0m
+[3.255s] [ 61%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[3.270s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.288s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[3.303s] [ 66%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.342s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[3.373s] [ 66%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[3.401s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[3.402s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[3.435s] [ 74%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[3.477s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_c
+[3.500s] [ 74%] Built target my_robot_interfaces
+[3.523s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.832s] [ 76%] Built target my_robot_interfaces__py
+[3.859s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_s.c.o[0m
+[3.859s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c.o[0m
+[3.955s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[3.998s] [ 84%] Built target my_robot_interfaces__rosidl_generator_py
+[4.023s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.024s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.025s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.117s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.146s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.148s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.167s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[4.191s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.192s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.208s] Invoked command in '/home/pranav/turtle_catcher/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/turtle_catcher/build/my_robot_interfaces -- -j4 -l4
+[4.316s] Invoking command in '/home/pranav/turtle_catcher/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/turtle_catcher/build/my_robot_interfaces
+[4.325s] -- Install configuration: ""
+[4.325s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[4.325s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.325s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.h
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.h
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.h
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.h
+[4.326s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.h
+[4.327s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__functions.c
+[4.327s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.c
+[4.327s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__functions.h
+[4.327s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.h
+[4.327s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.328s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.h
+[4.328s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[4.328s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[4.328s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[4.329s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[4.329s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.329s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.329s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.329s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.330s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[4.330s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[4.330s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.331s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.331s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.331s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.331s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.331s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[4.331s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.c
+[4.331s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[4.332s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.c
+[4.332s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.332s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[4.333s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.333s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[4.333s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[4.333s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.334s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.334s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_array.hpp
+[4.334s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.334s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__traits.hpp
+[4.334s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+[4.334s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp
+[4.334s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__builder.hpp
+[4.335s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+[4.335s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+[4.335s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp
+[4.335s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.335s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.336s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.336s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[4.336s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[4.336s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.336s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.336s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.337s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.337s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.337s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.337s] -- Up-to-date: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[4.337s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[4.337s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__type_support.cpp
+[4.338s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[4.338s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__type_support.cpp
+[4.338s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.338s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.338s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[4.339s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.339s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[4.339s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[4.339s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[4.340s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.340s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.340s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[4.341s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg
+[4.342s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array_s.c
+[4.342s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle.py
+[4.342s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array.py
+[4.342s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_s.c
+[4.344s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[4.344s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.344s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.345s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.345s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.345s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[4.380s] Listing '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[4.380s] Compiling '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[4.381s] Listing '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[4.381s] Compiling '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...
+[4.381s] Compiling '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle.py'...
+[4.381s] Compiling '/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_turtle_array.py'...
+[4.385s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.386s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.386s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.386s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.387s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.387s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.387s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[4.388s] -- Set runtime path of "/home/pranav/turtle_catcher/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[4.388s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.idl
+[4.388s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.idl
+[4.388s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/msg/Turtle.msg
+[4.389s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/msg/TurtleArray.msg
+[4.389s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[4.389s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[4.390s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[4.390s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[4.390s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[4.390s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[4.391s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[4.391s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[4.391s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[4.391s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[4.392s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[4.392s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[4.392s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[4.392s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.393s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.393s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.393s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.393s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.393s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.394s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.394s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.394s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.395s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.396s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.396s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.396s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.396s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.397s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.397s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.397s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.397s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.398s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.398s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.398s] -- Installing: /home/pranav/turtle_catcher/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.402s] Invoked command in '/home/pranav/turtle_catcher/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/turtle_catcher/install/turtle_catcher:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/turtle_catcher/build/my_robot_interfaces
