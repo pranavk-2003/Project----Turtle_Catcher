@@ -1,4 +1,8 @@
+
 # Turtle Catcher
+
+
+
 
 ## Table of Contents
 
@@ -23,31 +27,27 @@ Turtle Catcher is a project developed using ROS2 Humble and the turtlesim packag
 
 ## Installation
 
-To set up Turtle Catcher on your local machine, follow these steps:
+To set up Turtle Catcher, follow these steps:
 
-1. **Clone the repository:**
+1. **Create a ROS2 workspace:**
    ```sh
-   git clone https://github.com/pranavk-2003/turtle_catcher.git
+   mkdir -p ~/ros2_ws/src
+   cd ~/ros2_ws
    ```
 
-2. **Navigate to the project directory:**
+2. **Clone the `turtle_catcher` repository and move the `src` directory:**
    ```sh
-   cd turtle_catcher
+   git clone --depth 1 https://github.com/pranavk-2003/turtle_catcher.git
+   mv turtle_catcher/src ~/ros2_ws/src/
+   rm -rf turtle_catcher
    ```
 
-3. **Install ROS2 Humble and turtlesim:**
-   Follow the [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation.html) to install ROS2 Humble on your system.
-   Once ROS2 Humble is installed, install the turtlesim package:
-   ```sh
-   sudo apt-get install ros-humble-turtlesim
-   ```
-
-4. **Build the project:**
+3. **Build the workspace:**
    ```sh
    colcon build
    ```
 
-5. **Source the setup file:**
+4. **Source the setup file:**
    ```sh
    source install/setup.bash
    ```
@@ -77,7 +77,3 @@ Please ensure your code adheres to the project's coding standards and includes a
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to customize this template further according to your project's specific details.
